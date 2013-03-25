@@ -8,9 +8,9 @@
         android:title="@string/devs">
 
         <com.android.settings.widget.DeveloperPreference
-           android:title="Slimroms"
-           slim:nameDev="slimroms"
-           slim:twitterHandle="slimroms"
+           android:title="HyperDroidAOXP"
+           slim:nameDev="HyperDroidAOXP"
+           slim:twitterHandle="HyperDroidAOXP"
            slim:donateLink="@string/donate_slim" />
     </PreferenceCategory>
 
