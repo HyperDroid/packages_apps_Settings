@@ -4790,6 +4790,7 @@
     <string name="slim_website_summary">https://www.facebook.com/HyperDroidDevs\nFind all latest HyperDroid AOXP news here</string>
     <string name="slim_source_summary">HyperDroid AOXP ROMs are fully open source.\nSource at github.com/HyperDroid</string>
     <string name="donate_slim">http://forum.xda-developers.com/donatetome.php?u=243520</string>
+    <string name="donate_slimrom">www.slimroms.net/index.php/donations</string>
 
     <string name="increasing_ring_title">Ascending ringtone</string>
     <!-- Sound settings screen, the caption of the checkbox for making incoming calls increase in volume -->

@@ -49,7 +49,7 @@ public class About extends SettingsPreferenceFragment {
         if (preference == mSiteUrl) {
             launchUrl("http://slimroms.net/");
         }else if (preference == mSourceUrl) {
-            launchUrl("http://github.com/SlimRoms");
+            launchUrl("http://github.com/HyperDroid");
         }
         return super.onPreferenceTreeClick(preferenceScreen, preference);
     }

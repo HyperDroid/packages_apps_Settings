@@ -29,4 +29,14 @@
             android:summary="@string/slim_source_summary" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="devs"
+        android:title="@string/devs">
+
+        <com.android.settings.widget.DeveloperPreference
+           android:title="SlimRoms"
+           slim:nameDev="SlimRoms"
+           slim:twitterHandle="slimroms" />
+    </PreferenceCategory>
+
 </PreferenceScreen>
