@@ -125,15 +125,26 @@
         android:icon="@drawable/ic_settings_performance"
         android:title="@string/performance_settings_title" />
 
-    <!-- SlimCenter -->
+    <!-- STweaks -->
     <header
         android:id="@+id/slim_center"
         android:title="@string/slim_center_title"
-        android:icon="@drawable/ic_slim_ota">
+        android:icon="@drawable/ic_settings_about_slim">
         <intent
             android:action="android.intent.action.MAIN"
-            android:targetPackage="com.slim.ota"
-            android:targetClass="com.slim.center.SlimCenter" />
+            android:targetPackage="com.gokhanmoral.stweaks.app"
+            android:targetClass="com.gokhanmoral.stweaks.app.MainActivity" />
+    </header>
+
+    <!-- UMS -->
+    <header
+        android:id="@+id/storage_settings"
+        android:title="@string/usb_mass_storage_title"
+        android:icon="@drawable/ic_settings_storage">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.kopfgeldjaeger.sgs3.easyums"
+            android:targetClass="com.kopfgeldjaeger.sgs3.easyums.SGS3EasyUMSActivity" />
     </header>
 
     <!-- Superuser -->
