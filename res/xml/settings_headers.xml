@@ -154,6 +154,17 @@
         android:icon="@drawable/ic_action_permission"
         android:title="@string/superuser" />
 
+    <!-- GooManager -->
+    <header
+        android:id="@+id/slim_center"
+        android:title="@string/system_update_settings_list_item_title"
+        android:icon="@drawable/ic_slim_ota">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.s0up.goomanager"
+            android:targetClass="com.s0up.goomanager.GooManagerActivity" />
+    </header>
+
     <!-- DEVICE -->
     <header android:id="@+id/device_section"
         android:title="@string/header_category_device" />
